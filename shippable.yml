@@ -2,6 +2,10 @@ language: java
 
 jdk:
    - oraclejdk7
+env:
+   - Foo=bar
+   - Baz=baar
+   - Gru=minion
 
 services:
    - mongodb
