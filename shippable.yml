@@ -9,6 +9,7 @@ script:
    - ant clean
    - ant coverage
    
+build_image: shippable/minv2
    
 notifications:
   email:
