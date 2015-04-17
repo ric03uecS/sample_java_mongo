@@ -8,12 +8,3 @@ services:
 script:
    - ant clean
    - ant coverage
-   
-build_image: shippable/minv2
-   
-notifications:
-  email:
-   recipients:
-      - devashish+notify2@shippable.com
-   on_success: always
-   on_failure: always
